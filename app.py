@@ -2,10 +2,10 @@ from flask import Flask, request, jsonify
 import pandas as pd
 import pickle
 import logging
-
+import os
 
 # Chemin du modèle 
-model_path = 'C:/Users/pc_msi/Desktop/model/model.pkl'
+model_path = os.path.join(os.path.dirname(__file__), 'model/model.pkl')
 
 
 
