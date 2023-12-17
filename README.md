@@ -1,12 +1,15 @@
 Projet de Scoring de Crédit
+
 Objectif du Projet
+
+
 Ce projet a pour but de développer un modèle de scoring de crédit utilisant des techniques avancées de machine learning. L'objectif est de prédire la probabilité de remboursement d'un prêt par un client, en particulier pour ceux ayant peu ou pas d'historique de crédit. Le projet inclut également la création d'un dashboard interactif pour visualiser et interpréter les résultats du modèle.
 
 Structure du Dépôt
 Le dépôt est organisé en plusieurs dossiers principaux pour une meilleure organisation et compréhension du projet :
 
 /model
-Ce dossier contient les scripts et notebooks utilisés pour la création, l'entraînement et l'évaluation des modèles de scoring de crédit. Il inclut également les fichiers relatifs à l'optimisation des hyperparamètres et à la gestion du déséquilibre des classes.
+Ce dossier contient le modèle finale.
 
 
 /test
